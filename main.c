@@ -30,10 +30,18 @@ void main()
             char x;
             printf("qinshuruquchudejine\n");
             scanf("%d", &qu);
+            if(qian>=qu){
+
+            
             qian -= qu;
             printf("quqianchengongdianjihuichejixue\n");
             scanf("%c", &x);
             scanf("%c", &x);
+            }
+            else{
+                printf("yu e buzhuquqianshibai\n");
+                scanf("%c",&x);
+            }
         }
         if (a == 3)
         {
